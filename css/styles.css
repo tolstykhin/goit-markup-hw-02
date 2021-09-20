@@ -16,7 +16,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  background-color: var(--primery-bg-color);
+  background-color: var(--white-color);
 }
 .link {
   text-decoration: none;
@@ -31,7 +31,7 @@ body {
   background-color: var(--white-color);
 }
 .header-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -68,7 +68,7 @@ body {
 
 /* Hero */
 
-.hero-bgr {
+.hero-section {
   background-color: var(--footer-bg-color);
 }
 .hero-title {
@@ -104,11 +104,15 @@ body {
 
 /* advantage */
 
-.advantage-title {
+.advantages-title {
+  display: none;
+}
+.advantage-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--titel-text-color);
+  text-transform: uppercase;
 }
 .advantage-text {
   font-size: 14px;
@@ -126,6 +130,10 @@ body {
 }
 
 /* Team */
+
+.team-section {
+  background-color: var(--section-bg-color);
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -148,6 +156,10 @@ body {
 }
 
 /* Portfolio */
+
+.portfolio-title {
+  display: none;
+}
 .portfolio-filter-btn {
   background: #f5f4fa;
   border-radius: 4px;
@@ -190,7 +202,7 @@ body {
   background-color: var(--footer-bg-color);
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -207,4 +219,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-contact-color);
+}
+.footer-contackt-link:hover,
+.footer-contackt-link:focus {
+  color: var(--accent-color);
 }
